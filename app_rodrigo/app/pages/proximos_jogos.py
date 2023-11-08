@@ -22,7 +22,7 @@ st.markdown(
 
 
 def load_data_jogos():
-    data_jogos = pd.read_csv(r"app_rodrigo\app\dados_full_x.csv")
+    data_jogos = pd.read_csv(r"app_rodrigo\app\proximos_jogos.csv")
     data_jogos = data_jogos[
         [
             "League",
