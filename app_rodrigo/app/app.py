@@ -70,7 +70,7 @@ with st.sidebar:
 
 def load_data(league):
     print("Carregando arquivo CSV...")
-    data = pd.read_csv(r"app_rodrigo\app\dados_full_x.csv")
+    data = pd.read_csv("https://github.com/Franciscovj/project_app_soccer/blob/main/app_rodrigo/app/dados_full_x.csv?raw=true")
     print("Arquivo CSV carregado!")
     data = data[data["League"] == league]
     return data
